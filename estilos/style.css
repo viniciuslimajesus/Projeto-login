@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #412482;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+div#img {
+    width: 100%;
+    height: 300px;
+    background-image: url('../imagens/cell.jpg');
+    background-repeat: no-repeat;
+    background-position: top right center; 
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+form h1 {
+    padding: 12px;
+    font-size: 1.8em;
+}
+
+input {
+    width: 220px;
+    height: 35px;
+    margin-top: 14px;
+    padding: 6px;
+}
+
+input[type="submit"] {
+    width: 170px;
+    padding: 0;
+    background-color: #5A33B4;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+form p {
+    margin-top: 15px;
+}
