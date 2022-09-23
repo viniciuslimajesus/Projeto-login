@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    section {
+        width: 700px;
+        height: 360px;
+        flex-direction: row;
+    }
+
+    div#img {
+        width: 320px;
+        height: 100%;
+    }
+
+    div#formulario {
+        width: 380px;
+    }
+
+    input {
+        width: 270px;
+    }
+
+}
