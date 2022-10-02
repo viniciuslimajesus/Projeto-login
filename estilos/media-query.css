@@ -32,6 +32,10 @@
 }
 
 @media screen and (min-width: 980px) {
+    body {
+        background-image: linear-gradient(to bottom, #6C5897 60%, #4ad1a4);
+    }
+
     section {
         flex-direction: row-reverse;
         width: 920px;
