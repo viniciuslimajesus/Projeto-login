@@ -25,12 +25,14 @@ main {
 section {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    min-width: 250px;
     height: 570px;
     overflow: hidden;
     background-color: #fff;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.404);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
     border-radius: 20px;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#img {
@@ -39,6 +41,10 @@ div#img {
     background:#6C5897 url('../imagens/cell.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div#formulario {
+    display: flex;
 }
 
 form {
@@ -55,16 +61,30 @@ form h1 {
     font-size: 1.6em;
 }
 
+div.cont-input {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    height: 40px;
+    background-color: rgb(112, 22, 112);
+    border-radius: 5px;
+}
+
+span {
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
 input {
-    width: 235px;
-    height: 35px;
-    margin-top: 16px;
+    width: 190px;
+    height: 40px;
     padding: 6px;
 }
 
 input[type="submit"] {
     width: 170px;
     height: 42px;
+    margin-top: 18px;
     padding: 0;
     background-color: #693ACF;
     border-radius: 30px;
