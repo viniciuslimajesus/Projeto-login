@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 980px) {
+    body {
+        background-image: linear-gradient(to bottom, #6C5897 60%, #4ad1a4);
+    }
+    
     section {
         width: 700px;
         height: 400px;
@@ -41,7 +45,6 @@
         width: 920px;
         height: 500px;
     }
-
     div#img {
         width: 50%;
         height: 100%;
